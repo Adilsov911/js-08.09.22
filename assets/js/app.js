@@ -38,4 +38,7 @@ function Show() {
             alert("bele qrup yoxdur")
         }
     }
+    else{
+        alert("bele qrup yoxdur")
+    }
 }
