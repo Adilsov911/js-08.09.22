@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+
+<button onclick="myFunction()">Click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text = "Press OK or Cancel.";
+  if (confirm(text) == true) {
+    text = "Qebul etdin!";
+  } else {
+    text = "Imtina etdin";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+<div>
+  <button onclick="Input()" id="btn">
+    Verify your age
+  </button>
+</div>
+
+<input id="inp" type="text" placeholder="Enter Grup Number:">
+  <button onclick="Show()">Enter Group</button>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
